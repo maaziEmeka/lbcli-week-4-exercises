@@ -17,7 +17,7 @@ CURRENT_BLOCK=25
 
 ABSOLUTE_TIMELOCK=$((CURRENT_BLOCK + 2016))
 
-TIMELOCK_INPUTS='[{"txid":"'$TXID'","vout":0},{"txid":"'$TXID'","vout":1,"sequence":4294967293}]'
+TIMELOCK_INPUTS='[{"txid":"'$TXID'","vout":0},{"txid":"'$TXID'","vout":1}]'
 
 TIMELOCK_OUTPUTS='[{"'$RECIPIENT'":'$AMOUNT'}]'
 
